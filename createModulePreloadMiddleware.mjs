@@ -4,8 +4,6 @@ import path from "node:path";
 import resolveLinkRelations from "modulepreload-link-relations/resolveLinkRelations.mjs";
 import formatLinkHeaderRelations from "modulepreload-link-relations/formatLinkHeaderRelations.mjs";
 
-/** @typedef {import('koa').Context} Context **/
-/** @typedef {import('koa').Next} Next **/
 /** @typedef {import('koa').Middleware} Middleware **/
 
 const defaultOptions = {
