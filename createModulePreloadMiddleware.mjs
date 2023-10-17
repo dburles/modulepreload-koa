@@ -31,7 +31,7 @@ export default function createModulePreloadMiddleware(
     const file = ctx.req.url?.slice(1);
     const fileExt = file && path.extname(file).slice(1);
 
-    if (fileExt && options.extensions.includes(fileExt)) {
+    if (url && fileExt && options.extensions.includes(fileExt)) {
       const linkRelations = await resolveLinkRelations({ appPath, url });
 
       if (linkRelations) {
