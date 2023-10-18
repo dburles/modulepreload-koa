@@ -1,6 +1,5 @@
 {
   "name": "modulepreload-koa",
-  "version": "1.0.3",
   "version": "2.0.0",
   "description": "Koa middleware for generating modulepreload link relations for a Link entity-header based on the requested JavaScript modules import graph.",
   "repository": {
