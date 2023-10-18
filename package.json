@@ -1,6 +1,7 @@
 {
   "name": "modulepreload-koa",
   "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Koa middleware for generating modulepreload link relations for a Link entity-header based on the requested JavaScript modules import graph.",
   "repository": {
     "type": "git",
@@ -35,14 +36,14 @@
     "types": "tsc -p jsconfig.json"
   },
   "devDependencies": {
-    "@types/koa-router": "^7.4.5",
     "eslint": "^8.50.0",
     "koa": "^2.14.2",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "modulepreload-link-relations": "^1.0.0"
+    "@types/koa-router": "*",
+    "modulepreload-link-relations": "^2.0.0"
   },
   "peerDependencies": {
     "koa": "2"
